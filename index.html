@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Crear Nuevo Post</h1>
+        <form id="formularioPost">
+
+            <div class="group"> 
+                <label for="titulo">Titulo:</label>
+                <input type="text" id="titulo" required placeholder="Escribe un titulo...">
+            </div> 
+
+            <div class="group">
+                <label for="contenido">Contenido:</label>
+                <textarea id="contenido" required placeholder="Escribe el cuerpo del post..."></textarea> 
+
+            <button type="submit">Enviar Post</button>
+        </form>
+        <div id="mensajeEstado"></div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
